@@ -1,0 +1,230 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Kyowon Song
+# title: Your job title
+email: tim000519@gmail.com
+# email_title: Email (Email title override)
+phone: +82-10-6504-7627
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  tim000519
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: ky.0_0.ne
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# # Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/me.jpg
+about_content: | # this will include new lines to allow paragraphs
+  ## **My Interest**
+  - Solving problems in various domains using machine learning.
+  - CV / Image Processing
+
+  ## **Tech Stack**
+  - Python 
+  - PyTorch 
+  - Jupyter
+
+content:
+  - title: Projects
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item.
+        title: "<div class='group'>Music Generation with Machine Learning<div style='margin-top: 20px;'><a href='/images/Style-VT_Last.png' target='_blank'><img src='/images/Style-VT_Last.png' alt='AI'></a></div></div>"
+
+        description: |
+          ## <mark style="display: inline-block; margin-bottom: 10px;">Research</mark>
+          
+          <div style="display: flex; align-items: flex-start; margin-left: 35px;">
+            <a href="/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              <strong>K.Song</strong>, D.Seo, J.Na, and H.Yang, <strong>"Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution"</strong>
+            </p>
+          </div>
+
+          <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-top: 10px;">
+            <a href="/pdf/style.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              <strong>송교원</strong>, 서동영, 나준수, 양희철, <strong>"Variational Transformer와 대리 코드 이론을 적용한 스타일 기반 음악생성 모델"</strong>, <em>in Korean Institute of Information Scientists and Engineers</em>
+            </p>
+          </div>
+
+          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 10px;">
+            <a href="/pdf/stylePoster.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              Research poster at KIISE 2024
+            </p>
+          </div>
+          
+          ## <mark style="display: inline-block; margin-bottom: 10px; margin-top: 20px;">Development</mark>
+          
+          <div style="display: flex; align-items: flex-start; margin-left: 33px;">
+            <a href="https://github.com/tim000519/Style-VT" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              Repository
+            </p>
+          </div>
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: AI in Weather Forecast
+        description: |
+          <div style="display: flex; align-items: flex-start; margin-left: 35px;">
+            <a href="/pdf/conv.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
+            </p>
+          </div>
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: AI Behavior Detection Model
+        description: |
+          <div style="display: flex; align-items: flex-start; margin-left: 33px;">
+            <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              Educational Concentration Analysis AI Model (Collaborated with Samsung)
+            </p>
+          </div>
+
+          <div style="display: flex; align-items: flex-start; margin-left: 33px;">
+            <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              Exam Proctoring AI Model
+            </p>
+          </div>
+          
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Edint
+        sub_title: AI Engineer Intern & Freelance AI Engineer
+        caption: 2024.06 - 2024.07 & 2024.11 - 2025.01
+        link: https://edint.kr/
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Secured a contract with Samsung by demonstrating a behavior detection AI model
+          - Development of AI Engines for Behavioral Patterns and Object Recognition
+          - Analysis of the licenses for the technologies and exploration of avoidance strategies
+
+      - layout: right
+        title: DNCLab(CNU)
+        sub_title: Undergraduate ML Researcher
+        caption: 2023.11 - 2025.02
+        link: https://edint.kr/
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Authored 2 papers about using ML techniq in several domains
+          - Conducted research on
+
+          
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Chungnam National University
+        sub_title: Bachelor’s Degree. Computer Convergence 
+        caption: 2019 - Current
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          - GPA: 3.95/4.5 (major: 4.02/4.5) ( July 2024)
+          
+  - title: A Little More About Me
+    layout: list
+    content:
+    - layout: left
+      title: Awards
+      description: |
+        - Special Award, Chungnam National University Project Fair
+        - Excellence Award, Korea Software Congress
+
+    - layout : left
+      title: Exchange student
+      description: |
+        - Received A+ grades in all courses taken
+        - Conducted official Korean language classes for local students (as a paid instructor for 8 weeks)
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
