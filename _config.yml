@@ -74,7 +74,7 @@ content:
           ## <mark style="display: inline-block; margin-bottom: 10px;">Research</mark>
           
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
-            <a href="{{ site.baseurl }}/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+            <a href="/resume/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="{{ site.baseurl }}/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
