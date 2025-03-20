@@ -51,7 +51,7 @@ instagram_username: ky.0_0.ne
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: {{ site.baseurl }}/images/me.jpg
+about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   ## **My Interest**
   - Solving problems in various domains using machine learning.
