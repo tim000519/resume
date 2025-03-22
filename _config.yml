@@ -111,7 +111,7 @@ content:
             </p>
           </div>
 
-          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 10px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://tim000519.github.io/museCanvas/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
@@ -148,7 +148,7 @@ content:
             </p>
           </div>
 
-          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 10px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
@@ -192,7 +192,6 @@ content:
         sub_title: Bachelor’s Degree. Computer Convergence 
         caption: 2019 - Current
         quote: >
-          Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           - GPA: 3.95/4.5 (major: 4.02/4.5) ( July 2024)
           
