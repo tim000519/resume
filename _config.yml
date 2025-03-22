@@ -1,7 +1,7 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
+baseurl: "/resume"
 # Content configuration version
 version: 2
 
@@ -68,14 +68,14 @@ content:
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item.
-        title: "<div class='group'>Music Generation with Machine Learning<div style='margin-top: 20px;'><a href='/images/Style-VT_Last.png' target='_blank'><img src='/images/Style-VT_Last.png' alt='AI'></a></div></div>"
+        title: "<div class='group'>Music Generation with Machine Learning<div style='margin-top: 20px;'><a href='/resume/images/Style-VT_Last.png' target='_blank'><img src='/resume/images/Style-VT_Last.png' alt='AI'></a></div></div>"
 
         description: |
           ## <mark style="display: inline-block; margin-bottom: 10px;">Research</mark>
           
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
-            <a href="/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            <a href="/resume/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               <strong>K.Song</strong>, D.Seo, J.Na, and H.Yang, <strong>"Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution"</strong>
@@ -83,8 +83,8 @@ content:
           </div>
 
           <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-top: 10px;">
-            <a href="/pdf/style.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            <a href="/resume/pdf/style.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               <strong>송교원</strong>, 서동영, 나준수, 양희철, <strong>"Variational Transformer와 대리 코드 이론을 적용한 스타일 기반 음악생성 모델"</strong>, <em>in Korean Institute of Information Scientists and Engineers</em>
@@ -92,8 +92,8 @@ content:
           </div>
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 10px;">
-            <a href="/pdf/stylePoster.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            <a href="/resume/pdf/stylePoster.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Research poster at KIISE 2024
@@ -104,7 +104,7 @@ content:
           
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Style-VT" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Paper Code
@@ -126,8 +126,8 @@ content:
         title: AI in Weather Forecast
         description: |
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
-            <a href="/pdf/conv.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            <a href="/resume/pdf/conv.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
@@ -141,7 +141,7 @@ content:
         description: |
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Educational Concentration Analysis AI Model (Collaborated with Samsung)
@@ -150,7 +150,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Exam Proctoring AI Model
