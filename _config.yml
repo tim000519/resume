@@ -160,7 +160,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Edint
         sub_title: AI Engineer Intern & Freelance AI Engineer
         caption: 2024.06 - 2024.07 & 2024.11 - 2025.01
@@ -172,7 +172,7 @@ content:
           - Development of AI Engines for Behavioral Patterns and Object Recognition
           - Analysis of the licenses for the technologies and exploration of avoidance strategies
 
-      - layout: right
+      - layout: left
         title: DNCLab(CNU)
         sub_title: Undergraduate ML Researcher
         caption: 2023.11 - 2025.02
@@ -187,7 +187,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Chungnam National University
         sub_title: Bachelor’s Degree. Computer Convergence 
         caption: 2019 - Current
