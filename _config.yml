@@ -113,7 +113,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://tim000519.github.io/museCanvas/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Paper Code
