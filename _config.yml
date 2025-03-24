@@ -148,6 +148,15 @@ content:
             </p>
           </div>
 
+          <div style="display: flex; align-items: flex-start; margin-left: 33px;">
+            <a href="https://github.com/tim000519/Hyeondai_transis" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              Educational Concentration Analysis AI Model (Collaborated with Samsung)
+            </p>
+          </div>
+
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://www.proctormatic.com/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
@@ -175,11 +184,11 @@ content:
             <p style="margin-left: 5px; vertical-align: middle;">
               daily log
             </p>
-            <a href="/resume/htm/printBoardWeekPopup.htm" target="_blank" style="margin-right: 2px; margin-left: 10px; flex-shrink: 0;">
+            <a href="/resume/htm/printBoardWeekPopup.htm" target="_blank" style="margin-right: 2px; margin-left: 20px; flex-shrink: 0;">
               <img src="/resume/images/contract.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              daily log
+              weekly log
             </p>
           </div>
           - Secured a contract with Samsung by demonstrating a behavior detection AI model
