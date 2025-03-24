@@ -116,7 +116,7 @@ content:
               <img src="/resume/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Web App
+              Project Under Development (Web App)
             </p>
           </div>
           
@@ -148,12 +148,12 @@ content:
             </p>
           </div>
 
-          <div style="display: flex; align-items: flex-start; margin-left: 33px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://github.com/tim000519/Hyeondai_transis" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Vehicle Occupant Pose Estimation AI Model (Collaborated with Hyeondai Transis)
+              Vehicle Occupant Pose Estimation AI Model (Collaborated with Hyeondai Transys)
             </p>
           </div>
 
