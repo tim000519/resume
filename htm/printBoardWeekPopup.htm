@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://cnujob.cnu.ac.kr/student/popup/printBoardWeekPopup?seq= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- 메타태그 -->
+
+	<!-- 문자열 설정 -->
+	
+	
+	<!-- 네이버 검색 -->
+	<meta name="naver-site-verification" content="25e686c3e0d6a749564c156c2b3efeeb6080ac2a">
+	
+	<!-- 스크립트와 스타일 형식 지정 -->
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	
+	<!-- 문서 호환성모드 지원 IE 최신버전 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!-- 뷰포트 설정 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	
+	<!-- 페이지 설명 -->
+	<meta name="description" content="스마트지원시스템">
+	
+	<!-- 키워드 -->
+	<meta name="keywords" content="스마트지원시스템">
+	
+	<!-- 사이트저작자 -->
+	<meta name="author" content="충남대학교">
+	
+	<!-- 검색로봇 접근여부 : 허용 -->
+	<meta name="robots" content="index,follow">
+	
+	<!-- 오픈그래프 (소셜 미디어 공유시 우선적으로 활용되는 정보) -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="스마트지원시스템">
+	<meta property="og:description" content="스마트지원시스템">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	
+	<!-- 표준 대표 URL -->
+	<link rel="canonical" href="http://safety.3dbank.or.kr/">
+
+<!-- // 메타태그 -->
+		
+<link rel="stylesheet" type="text/css" href="./printBoardWeekPopup_files/import.css">
+<link rel="stylesheet" type="text/css" href="./printBoardWeekPopup_files/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="./printBoardWeekPopup_files/message.css">
+<script type="text/javascript" src="./printBoardWeekPopup_files/jquery-1.11.3.min.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/jquery-ui.min.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/plupload.full.min.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/jquery.blockUI.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/printThis.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/jquery.validate.min.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/additional-methods.min.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/messages_ko.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/common.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/custom.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/defaultAction.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/searchAddr.js.다운로드"></script>
+
+<!-- Ajax Script -->
+<script type="text/javascript" src="./printBoardWeekPopup_files/commonAjax.js.다운로드"></script>
+
+<!-- Editor Script -->
+<script type="text/javascript" src="./printBoardWeekPopup_files/tinymce.min.js.다운로드"></script>
+<script type="text/javascript" src="./printBoardWeekPopup_files/commonEditor.js.다운로드"></script><script>
+	function onPrint(){
+		$(".noprint").css("display", "none");
+		window.setTimeout(function(){
+			window.print();
+			$(".noprint").css("display", "");
+		}, 300);
+	}
+</script></head>
+<!-- **********************************************************************
+화면명 : 학생 > 리포트 > 수행보고서 출력
+작성자 : 김경태 
+*********************************************************************** -->
+
+<body>
+        <!-- 프린트 페이지 -->
+        <div class="print--page">
+            <!-- 폼 -->
+            <div class="print--form">
+                <table>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                <div class="print--footer__space">&nbsp;</div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <!--********************************************
+                                *********************************************-->
+                                <div class="print--title">주간보고서</div>
+                                <div class="print--frame">
+<!--                                     <div class="print--frame_title"> -->
+<!--                                         <div class="print--sentence"> -->
+<!--                                             <i>◎</i> -->
+<!--                                         </div> -->
+<!--                                     </div> -->
+                                    <div class="print--table classify--align_left">
+                                        <table border="1">
+                                            <caption></caption>
+                                            <colgroup>
+                                                <col style="width: 25%;">
+                                                <col style="width: 25%;">
+                                                <col style="width: 25%;">
+                                                <col style="width: 25%;">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">성명</th>
+                                                    <td>송교원</td>
+                                                    <th scope="row">학번</th>
+                                                    <td>201902705</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">대학</th>
+                                                    <td>공과대학</td>
+                                                    <th scope="row">학과</th>
+                                                    <td>컴퓨터융합학부</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">실습기관</th>
+                                                    <td colspan="3">(주)에딘트</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">실습부서</th>
+                                                    <td colspan="3">AI 개발팀</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="print--frame">
+<!--                                     <div class="print--frame_title"> -->
+<!--                                         <div class="print--sentence"> -->
+<!--                                             <i>◎</i> -->
+<!--                                         </div> -->
+<!--                                     </div> -->
+                                    <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	1주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;">전체적인 업무의 흐름을 배웠습니다. 조직에서 사용하는 툴들의 사용법을 익히고, 저에게 주어진 업무를 파악하는 것을 위주로 근무하였습니다. 코드의 구성이 복잡하고, 사실상 코드를 구현하신 선임분들이 지금은 회사에 계시지 않은것에 더하여 코드에 대한 설명이 많이 부족하여서 예상보다 더 많은 노력과 시간이 필요하였습니다. 현재는 대부분의 코드의 구조를 파악하고 있으며, 변경하고 싶은 부분에 대해서 직접 코드를 수정해보며 모델을 튜닝할 수 있게 되었습니다. 앞으로는 룰셋과 쓰레솔드 부분을 튜닝하며 모델의 정확도를 필요한 방향으로 조정하는 업무를 수행할 예정입니다.</td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	2주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;">금주는 서비스의 기본 코드를 분석하고 발전시킬 방향을 파악하는것을 우선적으로 진행했습니다. 영상 분석은 크게 세 영역으로 나뉘는데, 비디오 처리, 오디오 처리, 컴파일 처리로 나뉩니다. 그 중 가장 중요한 분석은 비디오 처리로, 욜로 디텍트 모델을 이용한 객체 감지와 욜로 포즈 모델을 이용한 행동 감지로 나뉩니다. 서버에서 받아와서 실행하는 부분은 잘 구성되어있지만, 로컬이서 분석하는 부분에 있어서는 코드가 최신화가 되어있지 않아서 디버깅을 수행하는데 어려움이 있습니다. 로컬 분석부분을 개선하는 업무를 주로 수행하였습니다.</td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	3주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;">삼성 인력개발원이 요구한 내용에 맞춰서 개발 필요한 부분을 세분화 하고 그에 대해 개발을 진행중입니다
+
+ 1. **개인정보 보호를 위한 비식별화 지원 여부**
+    - 교육 중 감지된 저집중자(휴대폰 사용 등)를 공개적으로 영상을 보여줄 때, 누군지 명확히 식별하기 어렵도록 마스킹
+    - 비식별화 아이디어
+        - 얼굴, 눈 부위에 모자이크 또는 블러 처리
+            - 선택한 객체만 블러 처리 예시 영상    
+
+                
+        - 머리 영역을 감지하여 스티커(예: 이모티콘, 동물 캐릭터 얼굴)등으로 마스킹 처리
+            
+        - 영상에 필터 적용
+           
+ 
+2. **감지된 데이터 로깅 및 리포트화**
+    - 교육기간 동안 각 학습자별 태도를 정량화된 데이터로 확보하여 파악하고자 함
+    - 리포트 제공 주체는 교육 프로그램 관리자/진행자
+    - 1~2일 교육기간별 데이터를 쌓고 그에 따른 결과 리포트 제공
+        - 얼마나 딴짓, 자리비움 등을 하지 않고 교육에 집중했는지 등
+            - 화장실 등 오래 자리를 비우면 객체(사람) ID가 초기화 되는 현상 발생
+            - 복귀할때 신규 객체ID 가 발급되면, 해당 인원 추적 후 일정 시간(n초) 좌석 좌표에 고정되어 있으면 기존 ID를 신규 객체 ID로 변경하는 방법으로 추적 유지 대체
+        - 교육 중 휴대폰 사용의 빈도가 얼마나 많았는지 등
+        - 기타 인력개발원에서 파악/분석하고자 하는 항목을 위한 근거 데이터로 활용
+    - 각 학습자별 태도 감지 및 데이터 확보 방안
+        - 전제 조건
+            - 좌석별로 동일한 학습자가 앉았다고 가정
+            - 물론, 중간에 본인 좌석이 아닌 좌석에 잠시 앉거나 그럴 수 있는 상황도 발생할 수 있음
+                - 이 부분까지 완벽히 트랙킹할 필요 없으며, 이 정도의 변수는 감안하여 진행
+            - 카메라 영상(1~4번) 간 겹치는 좌석에 대한 처리 및 보정 방안 검토 필요
+        - 학습자별 태도 감지 아이디어
+            - 감지 가능한 태도 및 행동 목록
+                
+                [감지 목록]
+                
+        - 학습자별 데이터 로깅 및 데이터화 아이디어
+            - 데이터 로깅을 무한정 진행할 수는 없으므로 분석 시작과 종료에 대한 기능이 있어야 할 것 같음
+                - 시간, 강의 단위가 아닌 1일차, 2일차 같이 기간에 대한 합산 데이터도 지원할지
+                - 쉬는 시간과 같이 분석을 멈추고 재개할 수 있는 방안 고려 필요
+                    - 예) 시작. 일시정지, 종료 버튼으로 강의별 또는 하루의 총 분석 구간을 구분
+            - 리포트 제작 및 전달 시점
+                - 교육 종료 후 N시간 뒤
+            - 리포트 형태는 어떻게 구성될 지 고민필요
+                - 일정에 따라 단계를 나눠서 개발
+                    - 단기 : 단순 데이터값을 도표와 그래프로 제공
+                    - 중장기 : 세부화된 기준과 범례를 적용하여 데이터 분류 및 필터 제공
+                - 프록토매틱의 결과 리포트와 같은 기준과 범례를 구성
+                    - 학습자 태도 구분
+                        1. 정상태도의 학습자
+                        2. 불량태도의 학습자 
+                    - 총 불량태도가 감지된 학습자 수</td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	4주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;">금주는 삼성 인재개발원에 적용될 휴대폰 에티켓 모델을 구축하는 것을 가장 우선순위의 목표로 두었음. 데이터셋을 충분하게 구축하지 못하였고, 데이터셋을 충분하게 획득하기 위해서는 삼성쪽에서 제공을 해줘야하는데, 이게 개인정보 문제 때문에 계약이 성사되지 않은 현재 상황으로써는 어려움. 따라서 우선은 계약을 따내는 것을 목적으로 현재 우리가 직접 구축한 데이터 영상을 이용하여 이 데이터에 오버피팅 된 모델을 만들었음. 당연하게도 train데이터와 test데이터셋을 분리하지 않고 test하였기 때문에 우리가 집어넣은 라벨 거의 그대로 출력됨. 일단 삼성측에서는 정확도가 매우 높은 것으로 판단하고 계약이 성사 되는 분위기이긴 하나, 실제로 데이터를 모아서 이정도 성능을 도출하기 위해서는 많은 노력이 필요할 것으로 보임.. 모델 학습 환경과 데이터 라벨링 환경은 모두 구축해놓았기 때문에, 실제 데이터를 얻게 된다면 그래도 빠른 속도로 모델을 구축 할 수 있을 것으로 보임. 또한 삼성측에서 개개인의 교육생들의 교육 태도를 리포트 형식으로 받는 것 또한 요구하고 있기 때문에, 각 좌석별로 좌석의 영역을 미리 지정해 놓고, 감지되는 사람의 영역과 그 좌표의 영역이 일정 Threashold 이상 겹칠 시 그 영역에 대한 사람에게 아이디를 부여하고, 그 사람에 대해 negative라벨과 positive라벨을 감지하는 또 다른 모델을 이용하여 보고서형식으로 데이터를 축적할 계획임. 감지된 사람 비식별화에 있어선, openCV에서 제공하는 다양한 영상 필터를 이용하면 간단하게 해결할 수 있는 문제로 파악함<!-- notionvc: afcfe62b-2f2f-4317-a49c-ac62386b95d9 --></td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	5주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;"><h3><span>삼성 인력개발원 킥 오프 전, AI 기술 관련 정리 필요성이 존재하여 정리를 진행함</span></h3>
+<ul>
+<li>데이터, 화각, 리포트, 기타, 진행사항으로 나누어 진행</li>
+<li></li>
+<li>
+<h3>데이터</h3>
+<hr>
+<ol>
+<li>
+<p>학습용 데이터 : 하나의 강연에 대한 긴 영상보다 여러개의 강연에 대한 짧은 영상이 더 좋음.</p>
+<ol>
+<li>데이터 요소 중요도 표</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>영상 길이</th>
+<th>영상 내 움직임 강도 or 횟수</th>
+<th>강연 수</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>중요도</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>구체적인 영상 길이 요구 시 : 최소 3분 단위</p>
+</li>
+<li>
+<p>원하는 세트(강연) 수 : 많을 수록 좋음</p>
+</li>
+</ol>
+<!-- notionvc: 6d10feb8-87c3-405d-8439-e254f1a7bae2 --></li>
+</ul>
+<br><br>
+<h3>화각</h3>
+<hr>
+<ul>
+<li>카메라 화각이 겹치는 부분이 존재할 가능성이 있음.</li>
+<li>카메라 위치 조정으로 겹치는 부분이 없으면 좋지만 그렇지 못할 경우 아래의 방법으로 해결 하고자 함.
+<ul>
+<li>해결 방안 (이론)</li>
+</ul>
+<ol>
+<li>AI 가동 전, 영역 표시 후 검은화면 처리하여 인식을 하지 못하도록 설정</li>
+<li>좌석 맵핑할때 해당 영역은 같은 ID를 할당하여, 중복 데이터가 생성되지 않도록 설정</li>
+</ol>
+</li>
+</ul>
+<br>
+<h3>리포트</h3>
+<hr>
+<ul>
+<li>불가능한 조건 (현재 기준이며, 추후 고도화 진행 시 가능으로 전환 될 수 도 있음)
+<ol>
+<li>표정 및 감정 추론</li>
+<li>Negative를 아주 자세한 클래스로 분리</li>
+<li>쉬는 시간 자동 탐지</li>
+<li>Negative에 대한 캡쳐(증거)사진</li>
+</ol>
+</li>
+</ul>
+<!-- notionvc: ae846196-145e-4051-8a96-999dc4e85e5d --><br><br>
+<h3>기타</h3>
+<hr>
+<ul>
+<li>금요일(2024.07.26) 삼성 인력개발원과 킥 오프 이후, 인력개발원 측에서 positive에 대한 구체화 요구 유무에 따라 negative의 방침을 변경하는 방안 검토 중
+<ul>
+<li>목적 : 여러 다른 행동을 모두 하나의 클래스(negative)로 학습함에 따라 낮은 인식률 개선 및 불분명한 경계선에 있는 데이터 셋에 대한 분류 기준 개선</li>
+<li>기존 데이터 셋
+<ul>
+<li>청강 중이면 Positive, 집중을 하지 않을 경우 Negative로 분류</li>
+</ul>
+</li>
+<li>구체화 요청 시
+<ul>
+<li>postive를 여러 분야로(ex : 발표, 질문, 청중 등) 클래스를 분리</li>
+<li>negative를 여러 분야로(ex : 핸드폰 사용, 수면 등) 클래스 분리</li>
+<li>Postive 목록에 들어가는 항목들을 Green, Negative 목록에 들어가는 항목들을 Red, 청강 중 이긴 하나 집중을 하지 않는 중간 상황을 Orange로 분류하여 인식률 개선 및 데이터 셋 기준 개선하고자 함. → pose가 아닌 detect기반이기에 턱을 괴는 행동과 전화를 받는 모습을 구분하기 힘듦. 이를 대비하기 위해 Orange 라벨 추가</li>
+</ul>
+</li>
+<li>구체화 미요청 시
+<ul>
+<li>구체화 요청 시 대응에서 negative 대응만 진행</li>
+<li>데이터 학습도 negative만 진행하여, AI 추론에서 나오지 않는 상황은 모두 postive로 처리하는 방향</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- notionvc: e9af4ff8-ba72-4b15-97f7-692f9bedb5a9 --><br><!-- notionvc: 1cae3702-2ace-47ce-96d5-a39ccd2b126c --><br><!-- notionvc: 3fd03198-9338-437c-bd94-e7ecff17fd2d --></td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	6주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;"><p>진행 사항 점검<br><br></p>
+<ul>
+<li>AI
+<ul>
+<li>프리셋 : 데이터 수집 및 가공 중</li>
+<li>메인 : 미진행</li>
+</ul>
+</li>
+<li>GUI
+<ul>
+<li>시작 메뉴
+<ul>
+<li>모델 파일 선택</li>
+<li>CSV 파일(강당 좌석 좌표) 선택 이동</li>
+<li>좌표 맵핑 이동</li>
+<li>AI 가동 이동</li>
+</ul>
+</li>
+<li>좌표 맵핑(좌석)</li>
+<li>AI 가동
+<ul>
+<li>AI 추론 결과 표시 창</li>
+<li>모델 변경</li>
+<li>필터 변경</li>
+</ul>
+</li>
+<li>리포트 작성</li>
+</ul>
+</li>
+<li>Logic
+<ul>
+<li>좌석 ↔ 사람 맵핑 알고리즘 구현</li>
+<li>사람 ↔ 행동 맵핑 알고리즘</li>
+<li>워터마크 기반, 자동 AI 추론 On &amp; Off</li>
+</ul>
+</li>
+<li>배포 (패키징)</li>
+</ul>
+<!-- notionvc: 3290fa45-e693-4138-a5a0-ddbedf9a394e --></td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	7주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;"><h3>1. Class</h3>
+<ul>
+<li>
+<p>졸기, 모바일 사용 → Red로 조정</p>
+</li>
+<li>
+<p>턱 괴기, 살짝 기울기 → Orange</p>
+</li>
+<li>
+<p>손들기(한팔만), Orange &amp; Red 감지 되지 않을 경우 + 점수 → Blue</p>
+<p>※ Red : Negative, Blue : Positive이며, Oragne는 삼성인력개발원에 보여주는 것이 아닌 우리가 판별하기 위한 데이터 종류</p>
+</li>
+</ul>
+<h3>2. 모듈화 개발</h3>
+<ul>
+<li>GUI
+<ul>
+<li>디자인 구현</li>
+<li>이벤트 로직 처리</li>
+</ul>
+</li>
+<li>AI 엔진
+<ul>
+<li>사람, 행동 감지</li>
+<li>좌석 ↔ 사람 ↔ 행동 맵핑 로직</li>
+<li>검출된 결과 데이터 처리</li>
+</ul>
+</li>
+<li>리포트 관리
+<ul>
+<li>검출된 데이터를 리포트 양식에 맞게 변경</li>
+<li>데이터를 적용한 리포트 생성</li>
+</ul>
+</li>
+</ul>
+<h3>3. 구조도</h3>
+<p>※ 예시이며 추후 변경, 추가 될 수 있습니다.</p>
+<ul>
+<li>AI 엔진 예상 구조도</li>
+</ul>
+<!-- notionvc: 29dcdeee-61ec-4614-bb8f-37c05e8305a6 --><br>
+<p><img src="./printBoardWeekPopup_files/image.png" alt="image.png"></p>
+<!-- notionvc: 1af806ff-f602-4123-9500-c19e3aa9617f --><br><br>리포트 데이터 평탄화 알고리즘 예상 구조<!-- notionvc: 06bc5a7b-60d1-4182-96e3-1bf7aec03240 --><br><br>
+<p><img src="./printBoardWeekPopup_files/image(1).png" alt="image.png"></p>
+<!-- notionvc: 392d887a-e840-49cc-bd2b-6f5d9b6ecb1e --><br><br>프레임 드랍 대비 FPS 유지 구조<!-- notionvc: 4adb8bbc-910e-49ed-bbfb-8c1eb85580b3 --><br><br>
+<p><img src="./printBoardWeekPopup_files/image(2).png" alt="image.png"></p>
+<!-- notionvc: 97f76f30-7615-46c7-8552-69dc3b6fdcc3 --><br><br>
+<h3>4. 결과</h3>
+<ul>
+<li>프레임 드랍 대비 FPS 유지 구조
+<ul>
+<li>
+<p>기본 구조</p>
+<table>
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>기본 구조</th>
+<th>무한 루프 기반 구조</th>
+<th>이벤트 기반 개선 구조</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FPS - MAX</td>
+<td>6.7</td>
+<td>&nbsp;</td>
+<td>17.6</td>
+</tr>
+<tr>
+<td>FPS - MIN</td>
+<td>1.2</td>
+<td>&nbsp;</td>
+<td>4.5</td>
+</tr>
+<tr>
+<td>FPS - AVG</td>
+<td>4.8</td>
+<td>&nbsp;</td>
+<td>15.1</td>
+</tr>
+<tr>
+<td>Time (sec)</td>
+<td>113</td>
+<td>&nbsp;</td>
+<td>39</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>fps - max : 6.7, min : 1.1, avg : 4.8</li>
+<li>소요 시간 : 113sec,</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- notionvc: 334ad6a6-cb8e-48d7-88c1-03e0edff176a --></td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	8주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;"><p>욜로 나스로 기존의 모델을 이전하기 위한 테스트를 진행<br><br>YOLO NAS - SuperGradients</p>
+<ul>
+<li>License : Apache 2.0</li>
+<li>-&gt; 라이센스가 아파치이기 때문에 상업적 이용이 가능</li>
+<li>꼭 필요한 작업이 될 듯</li>
+</ul>
+<br><br>
+<h2>Model Train</h2>
+<ol>
+<li>train_dataset_params 과 valid_dataset_params를 지정
+<ul>
+<li>학습을 위한 변수설정</li>
+<li>학습 데이터의 위치와 사이즈, 라벨 파일 등에 대한 설정 과정</li>
+</ul>
+</li>
+</ol>
+<pre><code class="language-python">
+from super_gradients.training.datasets.detection_datasets.coco_format_detection import COCOFormatDetectionDataset
+from super_gradients.training.transforms.transforms import (
+    DetectionRandomAffine,
+    DetectionHSV,
+    DetectionHorizontalFlip,
+    DetectionPaddedRescale,
+    DetectionStandardize,
+    DetectionTargetsFormatTransform,
+)
+from super_gradients.training.utils.collate_fn import DetectionCollateFN
+
+train_dataset_params = dict(
+    data_dir="nas_samsung_640",
+    images_dir="images/train",
+    json_annotation_file="train_annotations.coco.json",
+    input_dim=(640, 640),
+    ignore_empty_annotations=False,
+    with_crowd=False,
+    all_classes_list=CLASS_NAMES,
+    transforms=[
+        DetectionRandomAffine(degrees=0.0, scales=(0.5, 1.5), shear=0.0, target_size=(640, 640), filter_box_candidates=False, border_value=128),
+        DetectionHSV(prob=1.0, hgain=5, vgain=30, sgain=30),
+        DetectionHorizontalFlip(prob=0.5),
+        DetectionPaddedRescale(input_dim=(640, 640)),
+        DetectionStandardize(max_value=255),
+        DetectionTargetsFormatTransform(input_dim=(640, 640), output_format="LABEL_CXCYWH"),
+    ],
+)
+
+valid_dataset_params = dict(
+    data_dir="nas_samsung_640",
+    images_dir="images/valid",
+    json_annotation_file="valid_annotations.coco.json",
+    input_dim=(640, 640),
+    ignore_empty_annotations=False,
+    with_crowd=False,
+    all_classes_list=CLASS_NAMES,
+    transforms=[
+        DetectionPaddedRescale(input_dim=(640, 640), max_targets=300),
+        DetectionStandardize(max_value=255),
+        DetectionTargetsFormatTransform(input_dim=(640, 640), output_format="LABEL_CXCYWH"),
+    ],
+)
+
+trainset = COCOFormatDetectionDataset(**train_dataset_params)
+valset = COCOFormatDetectionDataset(**valid_dataset_params)
+</code></pre>
+<ol start="2">
+<li>DataLoader 지정</li>
+</ol>
+<ul>
+<li>배치 사이즈와 worker의 개수 , shuffle의 on off등 학습과 관련된 하이퍼파라미터를 지정하는 과정</li>
+<li>1번에서 설정한 trainset, valset을 어떤 설정으로 load하여 학습에 사용할지 결정</li>
+</ul>
+<pre><code>from torch.utils.data import DataLoader
+
+NUM_WORKERS = 0
+BATCH_SIZE = 16
+
+train_dataloader_params = {
+    "shuffle": True,
+    "batch_size": BATCH_SIZE,
+    "drop_last": True,
+    "pin_memory": True,
+    "collate_fn": DetectionCollateFN(),
+    "num_workers": NUM_WORKERS,
+    "persistent_workers": NUM_WORKERS &gt; 0,
+}
+
+val_dataloader_params = {
+    "shuffle": False,
+    "batch_size": BATCH_SIZE,
+    "drop_last": False,
+    "pin_memory": True,
+    "collate_fn": DetectionCollateFN(),
+    "num_workers": NUM_WORKERS,
+    "persistent_workers": NUM_WORKERS &gt; 0,
+}
+
+train_loader = DataLoader(trainset, **train_dataloader_params)
+valid_loader = DataLoader(valset, **val_dataloader_params)
+</code></pre>
+<ol>
+<li>학습을 위한 learing late, optimizer, epoch 등 학습 방식에 대한 하이퍼파라미터를 지정하는 과정</li>
+</ol>
+<pre><code>from super_gradients.training.losses import PPYoloELoss
+from super_gradients.training.metrics import DetectionMetrics_050
+from super_gradients.training.models.detection_models.pp_yolo_e import PPYoloEPostPredictionCallback
+
+train_params = {
+    "warmup_initial_lr": 1e-5,
+    "initial_lr": 5e-4,
+    "lr_mode": "cosine",
+    "cosine_final_lr_ratio": 0.5,
+    "optimizer": "AdamW",
+    "zero_weight_decay_on_bias_and_bn": True,
+    "lr_warmup_epochs": 1,
+    "warmup_mode": "LinearEpochLRWarmup",
+    "optimizer_params": {"weight_decay": 0.0001},
+    "ema": False,
+    "average_best_models": False,
+    "ema_params": {"beta": 25, "decay_type": "exp"},
+    "max_epochs": 10,
+    "mixed_precision": True,
+    "loss": PPYoloELoss(use_static_assigner=False, num_classes=NUM_CLASSES, reg_max=16),
+    "valid_metrics_list": [
+        DetectionMetrics_050(
+            score_thres=0.1,
+            top_k_predictions=300,
+            num_cls=NUM_CLASSES,
+            normalize_targets=True,
+            include_classwise_ap=True,
+            class_names=CLASS_NAMES,
+            post_prediction_callback=PPYoloEPostPredictionCallback(score_threshold=0.01, nms_top_k=1000, max_predictions=300, nms_threshold=0.7),
+        )
+    ],
+    "metric_to_watch": "mAP@0.50",
+}
+</code></pre>
+<ol>
+<li>학습 실행 코드</li>
+</ol>
+<pre><code class="language-python">
+from super_gradients.training import Trainer
+from super_gradients.common.object_names import Models
+from super_gradients.training import models
+
+trainer = Trainer(experiment_name="yolo_nas_s_cppe-5", ckpt_root_dir="experiments")
+model = models.get(Models.YOLO_NAS_S, num_classes=NUM_CLASSES, pretrained_weights="coco")
+trainer.train(model=model, training_params=train_params, train_loader=train_loader, valid_loader=valid_loader)
+</code></pre>
+<h2>Model Inference</h2>
+<ol>
+<li>학습된 모델을 이용해 추론을 진행하는 방법</li>
+</ol>
+<p><!-- notionvc: 65219e5b-2697-499f-a2e2-aa877b596a36 --><br><br><br>from super_gradients.common.object_names import Models<br>from super_gradients.training import models<br>NUM_CLASSES = 7<br><br><br>import cv2<br>import time<br>import numpy as np<br>from ultralytics import YOLO<br><br># 모델 경로<br><br># 비디오 경로<br>video_path3 = r"C:\Users\edint\Downloads\WIN_20240704_12_51_10_Pro\WIN_20240704_12_48_37_Pro.mp4"<br><br><br># 모델 로드<br># behavior_model = YOLO(behavior_model_path)<br>behavior_model = models.get(Models.YOLO_NAS_S, num_classes=NUM_CLASSES, checkpoint_path=r'C:\SAMSUNG_PROJ\NAS\experiments\yolo_nas_s_cppe-5\RUN_20240809_131001_642791\ckpt_best.pth').cuda()<br><br>model = models.get(Models.YOLO_NAS_S, pretrained_weights="coco").cuda()<br><br># 비디오 캡처 설정<br>cap = cv2.VideoCapture(video_path2)<br>if not cap.isOpened():<br> print(f"Error: Could not open video file {video_path3}")<br> exit()<br><br># 색상 변수<br>BLUE = (255, 0, 0)<br>WHITE = (255, 255, 255)<br><br># 모드 변수<br>behavior_mode = True<br>detection_mode = True<br><br># FPS 변수<br>prev_time = time.time()<br>fps = 0<br><br><br>while cap.isOpened():<br> ret, frame = cap.read()<br> org_frame = frame.copy()<br> if not ret:<br> print('Failed to grab frame')<br> break<br><br> curr_time = time.time()<br><br> detected_people = []<br> behavior_results_class_names = []<br> <br> # results = behavior_model.predict(frame, fuse_model=False)<br> results = behavior_model.predict(frame, fuse_model=False)<br><br> for i in range (len(results.prediction)):<br> confidence = results.prediction.confidence[i]<br> bbox = results.prediction.bboxes_xyxy[i]<br><br> # 박스 좌표를 정수로 변환<br> xmin = int(bbox[0])<br> ymin = int(bbox[1])<br> xmax = int(bbox[2])<br> ymax = int(bbox[3])<br> # print(xmin)<br> class_name = results.class_names[results.prediction.labels[i]]<br><br> cv2.rectangle(frame, (int(xmin), int(ymin)), (int(xmax), int(ymax)), BLUE, 1)<br> cv2.rectangle(frame, (xmin, ymin - 22), (xmin + 27, ymin), BLUE, -1)<br> cv2.putText(frame, f"{class_name}{int(confidence)}", (xmin + 5, ymin - 8), cv2.FONT_HERSHEY_SIMPLEX, 0.5, WHITE, 2)<br> <br> # FPS 계산<br> try:<br> fps = 1 / (curr_time - prev_time)<br> prev_time = curr_time<br> # FPS 표시<br> cv2.putText(frame, f"FPS: {fps:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2)<br> # cv2.putText(frame, f"detected behavior: {len(behavior_results):.2f}", (10, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2)<br> # cv2.putText(frame, f"filtered behavior: {len(nms_confidences):.2f}", (10, 120), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2)<br> except ZeroDivisionError:<br> print('ZeroDivisionError: total time is zero.')<br> <br> cv2.imshow("Video", frame)<br><br> input_key = cv2.waitKey(1) &amp; 0xFF<br> if input_key == ord("q"):<br> break<br><br>cap.release()<br>cv2.destroyAllWindows()<br><br><!-- notionvc: cd8839f5-801a-4186-988b-83b3d7416d7b --></p>
+<p>위와 같이 다음 사람이 모델을 이전할 수 있도록 튜토리얼을 만들어 정리해두었다.</p></td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                <div class="print--table classify--align_left">
+	                                        <table border="1">
+	                                            <caption></caption>
+	                                            <colgroup>
+	                                                <col>
+	                                            </colgroup>
+	                                            <thead>	                                            	
+	                                                <tr>
+	                                                    <th scope="col">
+	                                                    	9주차</th>
+	                                                </tr>
+	                                            </thead>
+	                                            <tbody>
+	                                                <tr>
+	                                                    <td style="height: 160px;"><ul>
+<li>9.27까지 7주 일정</li>
+</ul>
+<!-- notionvc: 8d5b2572-11d8-4b85-b9af-43e3fc008d10 --><br>
+<table id="6885985e-12e7-42d4-947e-8826fee70174" class="simple-table">
+<tbody>
+<tr id="e1160f97-9dad-4cdb-8364-4b076dba98fd">
+<td id="}LmX" class="">&nbsp;</td>
+<td id="@&gt;ua" class="">UI/UX</td>
+<td id="SHOp" class="">AI 엔진</td>
+</tr>
+<tr id="aa7b10b1-c549-42c1-ba0b-f2864be46b24">
+<td id="}LmX" class="">1주차 (~8.18)</td>
+<td id="@&gt;ua" class="">- 사전 기획, 논의, 이슈 점검</td>
+<td id="SHOp" class="">- 사전 기획, 논의, 이슈 점검</td>
+</tr>
+<tr id="e4fb6f8b-d58d-4a1e-a28f-5659b91d403d">
+<td id="}LmX" class="">2주차 (~8.25)</td>
+<td id="@&gt;ua" class="">- 대시보드 시스템 기획 시작</td>
+<td id="SHOp" class="">- 로직 구성</td>
+</tr>
+<tr id="773ebd9d-d47b-4080-bd8b-55354b09d81a">
+<td id="}LmX" class="">3주차 (~9.1)</td>
+<td id="@&gt;ua" class="">- 인개원에 샘플 보고서 전달</td>
+<td id="SHOp" class="">- 로직 구성<br>- 애매한 클래스 확정 (잦은 이석, 적극적으로 메모하며 주의 깊게 듣기, 손을 들고 발표하기, 질문하기)</td>
+</tr>
+<tr id="a1bbdc2c-0be0-498b-a137-07b4fc5b1f67">
+<td id="}LmX" class="">4주차 (~9.8)</td>
+<td id="@&gt;ua" class="">- 고객 요구사항 반영한 추가 기획</td>
+<td id="SHOp" class="">- 가설치 CCTV 영상 입수</td>
+</tr>
+<tr id="5fadda28-f4b2-4774-9c09-94e6e1f211c9">
+<td id="}LmX" class="">5주차 (~9.15)</td>
+<td id="@&gt;ua" class="">&nbsp;</td>
+<td id="SHOp" class="">&nbsp;</td>
+</tr>
+<tr id="75ec70c5-b54e-4b75-b734-fb1f64b973ce">
+<td id="}LmX" class="">6주차 (~9.22)</td>
+<td id="@&gt;ua" class="">&nbsp;</td>
+<td id="SHOp" class="">&nbsp;</td>
+</tr>
+<tr id="05d01df4-4ad6-41de-9d5d-5b4645afb938">
+<td id="}LmX" class="">7주차 (~9.29)</td>
+<td id="@&gt;ua" class="">통합 테스트 및 QA</td>
+<td id="SHOp" class="">통합 테스트 및 QA</td>
+</tr>
+<tr id="dc43ae72-680c-4654-8fd5-7b9b11f97c47">
+<td id="}LmX" class="">8주차 (~10.4)</td>
+<td id="@&gt;ua" class="">통합 테스트 및 QA</td>
+<td id="SHOp" class="">통합 테스트 및 QA</td>
+</tr>
+</tbody>
+</table></td>
+	                                                </tr>
+	                                            </tbody>
+	                                        </table>
+	                                    </div>
+	                                </div>
+                                <!--********************************************
+                                *********************************************-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+			<!-- 출력일 -->
+			<div class="print--day">[출력일] 2024-08-21 16:39:03</div>
+            <!-- 배경 -->
+            <div class="print--background"><img src="./printBoardWeekPopup_files/print__background.png" alt=""></div>
+            <!-- 로고 -->
+            <div class="print--from"><img src="./printBoardWeekPopup_files/print__logo.png" alt="충남대학교 인재개발원"></div>
+        </div>
+        <div style="padding:20px;" class="noprint">
+			<a href="javascript:onPrint();" style="width:70px; height:24px; display:block;background:url(/resources/img/btn/btn_print.jpg) no-repeat 0 0; color:#4f4e4e; font-weight:100; font-size:14px; padding:7px 0 0 10px; margin:0 auto; cursor:poiter;" onclick="">
+				 인쇄
+			</a>
+		</div>        
+        <!-- 페이지 넘김 -->
+</body></html>

@@ -149,7 +149,7 @@ content:
           </div>
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
-            <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+            <a href="https://www.proctormatic.com/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
@@ -166,8 +166,16 @@ content:
         caption: 2024.06 - 2024.07 & 2024.11 - 2025.01
         link: https://edint.kr/
         quote: >
-          
+          AI-based service company founded through Samsung Electronics' in-house venture program, C-lab.
         description: | # this will include new lines to allow paragraphs
+          <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-top: 10px;">
+            <a href="/resume/htm/printBoardDayPopup" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              daily log
+            </p>
+          </div>
           - Secured a contract with Samsung by demonstrating a behavior detection AI model
           - Development of AI Engines for Behavioral Patterns and Object Recognition
           - Analysis of the licenses for the technologies and exploration of avoidance strategies
