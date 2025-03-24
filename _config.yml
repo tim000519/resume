@@ -168,7 +168,19 @@ content:
         quote: >
           AI-based service company founded through Samsung Electronics' in-house venture program, C-lab.
         description: | # this will include new lines to allow paragraphs
-          <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-top: 10px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-bottom: 10px;">
+            <a href="/resume/htm/printBoardDayPopup" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              daily log
+            </p>
+            <a href="/resume/htm/printBoardDayPopup" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
+            </a>
+            <p style="margin-left: 5px; vertical-align: middle;">
+              daily log
+            </p>
             <a href="/resume/htm/printBoardDayPopup" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/contract.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
