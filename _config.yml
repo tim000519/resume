@@ -130,7 +130,7 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
+              김성윤, 송교원, 차영은, <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>, <em>in Korean Institute of Information Scientists and Engineers</em>
             </p>
           </div>
           
