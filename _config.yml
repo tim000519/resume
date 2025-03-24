@@ -123,7 +123,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: AI in Weather Forecast
+        title: "<div class='group'>AI in Weather Forecast<div style='margin-top: 20px;'><a href='/resume/images/convlstm.png' target='_blank'><img src='/resume/images/convlstm.png' alt='AI'></a></div></div>"
         description: |
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
             <a href="/resume/pdf/conv.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
@@ -177,23 +177,24 @@ content:
         quote: >
           AI-based service company founded through Samsung Electronics' in-house venture program, C-lab.
         description: | # this will include new lines to allow paragraphs
-          <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-bottom: 10px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 25px; margin-bottom: 10px;">
             <a href="/resume/htm/printBoardDayPopup.htm" target="_blank" style="margin-right: 2px; flex-shrink: 0;">
-              <img src="/resume/images/contract.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/paper2.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               daily log
             </p>
             <a href="/resume/htm/printBoardWeekPopup.htm" target="_blank" style="margin-right: 2px; margin-left: 20px; flex-shrink: 0;">
-              <img src="/resume/images/contract.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/paper2.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               weekly log
             </p>
           </div>
-          - Secured a contract with Samsung by demonstrating a behavior detection AI model
           - Development of AI Engines for Behavioral Patterns and Object Recognition
           - Analysis of the licenses for the technologies and exploration of avoidance strategies
+          - Secured a contract with Samsung by demonstrating a behavior detection AI model
+          
 
       - layout: left
         title: DNCLab(CNU)
