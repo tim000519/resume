@@ -77,8 +77,11 @@ content:
             <a href="/resume/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
-            <p style="margin-left: 5px; vertical-align: middle;">
-              <strong>"Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution"</strong> <br> <strong>K.Song</strong>, D.Seo, J.Na, and H.Yang
+            <p style="margin-left: 5px; vertical-align: middle; line-height: 1.8;">
+              <a href="/resume/pdf/Access.pdf" target="_blank" style="text-decoration: underline;">
+                <strong>Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution</strong>
+              </a>
+              <br><strong>K.Song</strong>, D.Seo, J.Na, and H.Yang
             </p>
           </div>
 
@@ -86,8 +89,8 @@ content:
             <a href="/resume/pdf/style.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
-            <p style="margin-left: 5px; vertical-align: middle;">
-              <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
+            <p style="margin-left: 5px; vertical-align: middle; line-height: 1.8;">
+              <a href="/resume/pdf/style.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>Variational Transformer와 대리 코드 이론을 적용한 스타일 기반 음악생성 모델</strong>
               </a>
               <br>
@@ -134,7 +137,7 @@ content:
             <a href="/resume/pdf/conv.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
-            <p style="margin-left: 5px; vertical-align: middle;">
+            <p style="margin-left: 5px; vertical-align: middle; line-height: 1.8;">
               <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
               </a> 
