@@ -182,7 +182,7 @@ content:
     layout: list
     content:
       - layout: left
-        title:"<div style='text-align: center;'>Edint</div>"
+        title: "<div style='text-align: center;'>Edint</div>"
         sub_title: AI Engineer Intern & Freelance AI Engineer
         caption: 2024.06 - 2024.07 & 2024.11 - 2025.01
         link: https://edint.kr/
