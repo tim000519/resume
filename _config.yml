@@ -78,7 +78,6 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
-              <- 
               <a href="/resume/pdf/Access.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution</strong>
               </a>
@@ -139,7 +138,6 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
-              <-  
               <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
               </a> 
@@ -184,7 +182,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Edint
+        title:"<div style='text-align: center;'>Edint</div>"
         sub_title: AI Engineer Intern & Freelance AI Engineer
         caption: 2024.06 - 2024.07 & 2024.11 - 2025.01
         link: https://edint.kr/
@@ -211,7 +209,7 @@ content:
           
 
       - layout: left
-        title: DNCLab(CNU)
+        title: "<div style='text-align: center;'>DNCLab(CNU)</div>"
         sub_title: Undergraduate ML Researcher
         caption: 2023.11 - 2025.02
         link: https://edint.kr/
@@ -226,7 +224,7 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: Chungnam National University
+        title: "<div style='text-align: center;'>Chungnam National University</div>"
         sub_title: Bachelor’s Degree. Computer Convergence 
         caption: 2019 - Current
         quote: >
