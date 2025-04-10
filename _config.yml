@@ -75,7 +75,7 @@ content:
           
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
             <a href="/resume/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/contract.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
               <a href="/resume/pdf/Access.pdf" target="_blank" style="text-decoration: underline;">
@@ -87,7 +87,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-top: 10px;">
             <a href="/resume/pdf/style.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/contract.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
               <a href="/resume/pdf/style.pdf" target="_blank" style="text-decoration: underline;">
@@ -101,7 +101,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 10px;">
             <a href="/resume/pdf/stylePoster.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/poster2.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/poster2.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Research poster at KIISE 2024
@@ -112,7 +112,7 @@ content:
           
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Style-VT" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/github.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Paper Code
@@ -121,7 +121,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://tim000519.github.io/museCanvas/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/poster2.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/poster2.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Project Under Development (Web App)
@@ -135,7 +135,7 @@ content:
         description: |
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
             <a href="/resume/pdf/conv.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
               <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
@@ -153,7 +153,7 @@ content:
         description: |
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Educational Concentration Analysis AI Model (Collaborated with Samsung)
@@ -162,7 +162,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://github.com/tim000519/Hyeondai_transis" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Vehicle Occupant Pose Estimation AI Model (Collaborated with Hyeondai Transys)
@@ -171,7 +171,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://www.proctormatic.com/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Exam Proctoring AI Model
@@ -191,13 +191,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           <div style="display: flex; align-items: flex-start; margin-left: 25px; margin-bottom: 10px;">
             <a href="/resume/htm/printBoardDayPopup.htm" target="_blank" style="margin-right: 2px; flex-shrink: 0;">
-              <img src="/resume/images/paper2.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/paper2.png" alt="htm" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               daily log
             </p>
             <a href="/resume/htm/printBoardWeekPopup.htm" target="_blank" style="margin-right: 2px; margin-left: 20px; flex-shrink: 0;">
-              <img src="/resume/images/paper2.png" alt="htm" width="30" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/paper2.png" alt="htm" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               weekly log
@@ -242,9 +242,20 @@ content:
 
     - layout : left
       title: Exchange student
+      sub_title: Masarykova University, Czeck
+      caption: 2023.03 - 2023.07
       description: |
         - Received A+ grades in all courses taken
         - Conducted official Korean language classes for local students (as a paid instructor for 8 weeks)
+        
+    - layout : left
+      title: Language training
+      sub_title: University of Newcastle, Australia
+      caption: 2020.02 - 2023.03
+      description: |
+        - Awarded a full scholarship
+        - Graduated as the top language trainee 
+        
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
