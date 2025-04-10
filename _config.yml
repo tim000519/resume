@@ -170,7 +170,7 @@ content:
           </div>
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
-            <a href="https://www.proctormatic.com/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+            <a href="https://github.com/tim000519/Proctoring-AI" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
