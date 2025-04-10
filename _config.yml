@@ -75,7 +75,7 @@ content:
           
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
             <a href="/resume/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/contract.png" alt="PDF" width="40" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
               <a href="/resume/pdf/Access.pdf" target="_blank" style="text-decoration: underline;">
@@ -87,7 +87,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 35px; margin-top: 10px;">
             <a href="/resume/pdf/style.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/contract.png" alt="PDF" width="40" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/contract.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
               <a href="/resume/pdf/style.pdf" target="_blank" style="text-decoration: underline;">
@@ -101,7 +101,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 10px;">
             <a href="/resume/pdf/stylePoster.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/poster2.png" alt="PDF" width="40" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/poster2.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Research poster at KIISE 2024
@@ -112,7 +112,7 @@ content:
           
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Style-VT" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/github.png" alt="PDF" width="40" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/github.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Paper Code
@@ -121,7 +121,7 @@ content:
 
           <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="https://tim000519.github.io/museCanvas/" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
-              <img src="/resume/images/poster2.png" alt="PDF" width="40" style="vertical-align: middle; flex-shrink: 0;">
+              <img src="/resume/images/poster2.png" alt="PDF" width="35" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
               Project Under Development (Web App)
