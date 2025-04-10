@@ -142,7 +142,7 @@ content:
               <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
               </a> 
-              <br>김성윤, 송교원, 차영은, 
+              <br>김성윤, 송교원, 차영은
               <br><em>Korean Institute of Information Scientists and Engineers</em>
             </p>
           </div>
@@ -218,7 +218,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           - Authored 2 papers about using ML techniq in several domains
-          - Conducted research on
+          - Gained hands-on experience by studying and implementing various machine learning model architectures
 
           
   - title: Education
@@ -230,7 +230,7 @@ content:
         caption: 2019 - Current
         quote: >
         description: | # this will include new lines to allow paragraphs
-              <a href="/resume/pdf/score.pdf" target="_blank" style="text-decoration: underline;">
+              <a href="/resume/images/score.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>- GPA: 3.95/4.5</strong>
               </a> 
             (major: 4.01/4.5) ( July 2024)
