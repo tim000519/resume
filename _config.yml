@@ -61,6 +61,13 @@ about_content: | # this will include new lines to allow paragraphs
   - Python 
   - PyTorch 
   - Jupyter
+  
+  ## **Tech Stack**
+  - **Programming:** Python, Java, C, C++, Git
+  - **ML/DL Frameworks:** PyTorch, TensorFlow/Keras
+  - **Data Processing:** NumPy, Pandas
+  - **Tools & Platforms:** Jupyter
+
 
 content:
   - title: Projects
