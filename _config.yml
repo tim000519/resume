@@ -149,7 +149,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: AI Behavior Detection Model
+        title: "<div class='group'>AI Behavior Detection Model<div style='margin-top: 20px;'><a href='/resume/images/samsung.png' target='_blank'><img src='/resume/images/convlstm.png' alt='AI'></a></div></div>"
         description: |
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Behavior_Detection" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
