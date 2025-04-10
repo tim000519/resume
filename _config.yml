@@ -54,19 +54,17 @@ instagram_username: ky.0_0.ne
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   ## **My Interest**
-  - Solving problems in various domains using machine learning.
-  - CV / Image Processing
-
-  ## **Tech Stack**
-  - Python 
-  - PyTorch 
-  - Jupyter
+  - Solving real-world problems across various domains using machine learning and deep learning.
+  - Computer Vision and Image Processing, especially object detection and behavior analysis.
+  - Generative models for creative applications such as music generation and style transfer.
+  - Research on model interpretability and performance improvement.
+  - Building deployable AI systems with efficient inference and scalable architectures.
   
   ## **Tech Stack**
-  - **Programming:** Python, Java, C, C++, Git
+  - **Programming:** Python, Java, C, C++
   - **ML/DL Frameworks:** PyTorch, TensorFlow/Keras
-  - **Data Processing:** NumPy, Pandas
-  - **Tools & Platforms:** Jupyter
+  - **CV:** OpenCV, YOLO
+  - **DevOps:** Git, Flask, FastAPI
 
 
 content:
