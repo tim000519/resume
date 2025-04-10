@@ -230,9 +230,9 @@ content:
         caption: 2019 - Current
         quote: >
         description: | # this will include new lines to allow paragraphs
-              <a href="/resume/images/score.pdf" target="_blank" style="text-decoration: underline;">
-                <strong>- GPA: 3.95/4.5</strong>
-              </a> 
+            <a href="/resume/images/score.pdf" target="_blank" style="text-decoration: underline;">
+              <strong>- GPA: 3.95/4.5</strong>
+            </a> 
             (major: 4.01/4.5) ( July 2024)
           
   - title: A Little More About Me
