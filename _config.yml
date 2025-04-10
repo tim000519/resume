@@ -104,7 +104,7 @@ content:
               <img src="/resume/images/poster2.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Research poster at KIISE 2024
+              <- Research poster at KIISE 2024
             </p>
           </div>
           
@@ -115,7 +115,7 @@ content:
               <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Paper Code
+              <- Paper Code
             </p>
           </div>
 
