@@ -78,6 +78,7 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
+              <- 
               <a href="/resume/pdf/Access.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution</strong>
               </a>
@@ -115,7 +116,7 @@ content:
               <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              <- Paper Code
+              <-  Paper Code
             </p>
           </div>
 
@@ -124,7 +125,7 @@ content:
               <img src="/resume/images/poster2.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Project Under Development (Web App)
+              <-  Project Under Development (Web App)
             </p>
           </div>
           
@@ -138,6 +139,7 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
+              <-  
               <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
                 <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
               </a> 
@@ -156,7 +158,7 @@ content:
               <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Educational Concentration Analysis AI Model (Collaborated with Samsung)
+              <-  Educational Concentration Analysis AI Model (Collaborated with Samsung)
             </p>
           </div>
 
@@ -165,7 +167,7 @@ content:
               <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Vehicle Occupant Pose Estimation AI Model (Collaborated with Hyeondai Transys)
+              <-  Vehicle Occupant Pose Estimation AI Model (Collaborated with Hyeondai Transys)
             </p>
           </div>
 
@@ -174,7 +176,7 @@ content:
               <img src="/resume/images/github.png" alt="PDF" width="33" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              Exam Proctoring AI Model
+              <-  Exam Proctoring AI Model
             </p>
           </div>
           
@@ -251,7 +253,7 @@ content:
     - layout : left
       title: Language training
       sub_title: University of Newcastle, Australia
-      caption: 2020.02 - 2023.03
+      caption: 2020.02 - 2020.03
       description: |
         - Awarded a full scholarship
         - Graduated as the top language trainee 
