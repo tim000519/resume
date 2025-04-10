@@ -224,7 +224,7 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: "<div style='text-align: center;'>Chungnam National University</div>"
+        title: Chungnam National University
         sub_title: Bachelor’s Degree. Computer Convergence 
         caption: 2019 - Current
         quote: >
@@ -253,8 +253,14 @@ content:
     - layout: left
       title: Awards
       description: |
-        - Special Award, Chungnam National University Project Fair
-        - Excellence Award, Korea Software Congress
+        - Special Award, Chungnam National University Project Fair (2024)
+        - Excellence Award, Korea Software Congress (2025)
+        - Encouragement Award, Korea Software Congress (2024)
+        
+    - layout: left
+      title: Certifications
+      description: |
+        - TOEIC : 850 (2025.03.30)
         
 # Footer
 footer_show_references: true
