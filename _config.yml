@@ -71,14 +71,14 @@ content:
         title: "<div class='group'>Music Generation with Machine Learning<div style='margin-top: 20px;'><a href='/resume/images/Style-VT_Last.png' target='_blank'><img src='/resume/images/Style-VT_Last.png' alt='AI'></a></div></div>"
 
         description: |
-          ## <mark style="display: inline-block; margin-bottom: 10px;">Research</mark>
+          ## <mark style="display: inline-block; margin-bottom: 10px;">RESEARCH</mark>
           
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
             <a href="/resume/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              <strong>K.Song</strong>, D.Seo, J.Na, and H.Yang, <strong>"Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution"</strong>
+              <strong>"Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution"</strong> <br> <strong>K.Song</strong>, D.Seo, J.Na, and H.Yang
             </p>
           </div>
 
@@ -87,7 +87,12 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              <strong>송교원</strong>, 서동영, 나준수, 양희철, <br> <strong>"Variational Transformer와 대리 코드 이론을 적용한 스타일 기반 음악생성 모델"</strong>, <em>in Korean Institute of Information Scientists and Engineers</em>
+              <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
+                <strong>Variational Transformer와 대리 코드 이론을 적용한 스타일 기반 음악생성 모델</strong>
+              </a>
+              <br>
+              <strong>송교원</strong>, 서동영, 나준수, 양희철 
+              <br><em>in Korean Institute of Information Scientists and Engineers</em>
             </p>
           </div>
 
@@ -100,7 +105,7 @@ content:
             </p>
           </div>
           
-          ## <mark style="display: inline-block; margin-bottom: 10px; margin-top: 20px;">Development</mark>
+          ## <mark style="display: inline-block; margin-bottom: 10px; margin-top: 20px;">DEVELOPMENT</mark>
           
           <div style="display: flex; align-items: flex-start; margin-left: 33px;">
             <a href="https://github.com/tim000519/Style-VT" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
@@ -130,7 +135,11 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle;">
-              김성윤, 송교원, 차영은, <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>, <em>in Korean Institute of Information Scientists and Engineers</em>
+              <a href="/resume/pdf/conv.pdf" target="_blank" style="text-decoration: underline;">
+                <strong>기상 데이터 이미지화를 통해 관측소 위치 정보를 활용한 ConvLSTM 기반 미세먼지 농도 예측 모델</strong>
+              </a> 
+              <br>김성윤, 송교원, 차영은, 
+              <br><em>in Korean Institute of Information Scientists and Engineers</em>
             </p>
           </div>
           
