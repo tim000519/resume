@@ -225,6 +225,17 @@ content:
           - Authored 2 papers about using ML techniq in several domains
           - Gained hands-on experience by studying and implementing various machine learning model architectures
 
+      # - layout: left
+      #   title: "<div style='text-align: center;'>DNCLab(CNU)</div>"
+      #   sub_title: Undergraduate ML Researcher
+      #   caption: 2023.11 - 2025.02
+      #   link: https://cnu-dislab.github.io/index.html
+      #   quote: >
+          
+      #   description: | # this will include new lines to allow paragraphs
+      #     - Authored 2 papers about using ML techniq in several domains
+      #     - Gained hands-on experience by studying and implementing various machine learning model architectures
+
           
   - title: Education
     layout: list
@@ -235,9 +246,8 @@ content:
         caption: 2019 - Current
         quote: >
         description: | # this will include new lines to allow paragraphs
-            -
             <a href="/resume/images/score.pdf" target="_blank" style="text-decoration: underline;">
-              <strong> GPA: 3.95/4.5</strong>
+              <strong> - GPA: 3.95/4.5</strong>
             </a> 
             (major: 4.01/4.5) ( July 2024)
           
