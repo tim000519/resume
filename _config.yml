@@ -225,16 +225,14 @@ content:
           - Authored 2 papers about using ML techniq in several domains
           - Gained hands-on experience by studying and implementing various machine learning model architectures
 
-      # - layout: left
-      #   title: "<div style='text-align: center;'>DNCLab(CNU)</div>"
-      #   sub_title: Undergraduate ML Researcher
-      #   caption: 2023.11 - 2025.02
-      #   link: https://cnu-dislab.github.io/index.html
-      #   quote: >
+      - layout: left
+        title: "<div style='text-align: center;'>Computer Vision Lab(CNU)</div>"
+        sub_title: Undergraduate ML Researcher
+        caption: 2025.04 - current
+        link: https://cnu-dislab.github.io/index.html
+        quote: >
           
-      #   description: | # this will include new lines to allow paragraphs
-      #     - Authored 2 papers about using ML techniq in several domains
-      #     - Gained hands-on experience by studying and implementing various machine learning model architectures
+        description: | # this will include new lines to allow paragraphs
 
           
   - title: Education
