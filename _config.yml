@@ -79,7 +79,7 @@ content:
           ## <mark style="display: inline-block; margin-bottom: 10px;">RESEARCH</mark>
           
           <div style="display: flex; align-items: flex-start; margin-left: 35px;">
-            <a href="/resume/pdf/Access.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
+            <a href="https://ieeexplore.ieee.org/document/11082127?source=authoralert" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
@@ -87,7 +87,7 @@ content:
                 <strong>Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution</strong>
               </a>
               <br>K.Song, D.Seo, J.Na, and H.Yang
-              <br><em>Manuscript currently under review at IEEE Access</em>
+              <br><em>IEEE Access, vol. 13, pp. 125207-125216, July 2025.</em>
             </p>
           </div>
 
