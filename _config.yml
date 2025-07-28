@@ -83,7 +83,7 @@ content:
               <img src="/resume/images/contract.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
             <p style="margin-left: 5px; vertical-align: middle; line-height: 2;">
-              <a href="/resume/pdf/Access.pdf" target="_blank" style="text-decoration: underline;">
+              <a href="https://ieeexplore.ieee.org/document/11082127?source=authoralert" target="_blank" style="text-decoration: underline;">
                 <strong>Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution</strong>
               </a>
               <br>K.Song, D.Seo, J.Na, and H.Yang
