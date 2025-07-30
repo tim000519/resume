@@ -105,7 +105,7 @@ content:
             </p>
           </div>
 
-          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 10px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
             <a href="/resume/pdf/stylePoster.pdf" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/poster2.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
@@ -165,7 +165,7 @@ content:
             </p>
           </div>
 
-          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 40px;">
             <a href="https://github.com/tim000519/Hyeondai_transis" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
@@ -174,7 +174,7 @@ content:
             </p>
           </div>
 
-          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 20px;">
+          <div style="display: flex; align-items: flex-start; margin-left: 33px; margin-top: 40px;">
             <a href="https://github.com/tim000519/Proctoring-AI" target="_blank" style="margin-right: 10px; flex-shrink: 0;">
               <img src="/resume/images/github.png" alt="PDF" width="30" style="vertical-align: middle; flex-shrink: 0;">
             </a>
